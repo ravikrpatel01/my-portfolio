@@ -98,7 +98,7 @@
       width: 18rem;
     }
     .hamburger-icon{
-      margin-left: 1.8rem;
+      margin-left: 1.5rem;
     }
     .contact-info-container p,
     .nav-links li a {
@@ -149,7 +149,7 @@
       text-align: center;
     }
     .text-container p{
-      font-size: 0.9rem;
+      font-size: 1rem;
     }
 
     .contact-details {
@@ -176,10 +176,11 @@
     color: rgb(186, 18, 51);
   }
   .message{
-    width: 20.3rem;
+    width: 19.9rem;
     height: 29rem;
     margin-top: 1rem;
     border-radius: 0.2rem;
+    border: 1px solid grey;
   }
   .send-msg{
     margin-top: 1.2rem;
@@ -190,7 +191,7 @@
     font-size: 1.3rem;
   }
   .send-msg input{
-    width: 17.8rem;
+    width: 16.5rem;
     font-size: 0.8rem;
     margin-top: 0;
     padding: 0.3rem 0;
@@ -200,7 +201,7 @@
   }
 
   .send-msg textarea{
-    width: 17.2rem;
+    width: 16.7rem;
     font-size: 0.8rem;
   }
 
