@@ -80,7 +80,7 @@
     }
     #projects{
       margin-top: 0;
-      margin-bottom: 0;
+      margin-bottom: 5rem;
     }
     #cont-details{
       margin-top: 0;
@@ -159,18 +159,20 @@
     .contact-details {
       display: flex;
       flex-direction: column;
-      height: 850px;
-      width: 21.5rem;
-      background-color: white;
-      margin-top: 0;
-      margin-left: 0;
+      height: 750px;
+      width: 95%;
+      margin: auto;
+      /* margin-top: 50rem; */
+      /* background-color: rgb(211, 48, 48); */
     }
 
-  .contact-me,.send-msg,.message{
-    margin-left: 20px;
-    padding: 0;
+  .contact-me{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-left: 0.8rem;
   }
-
   .contact-me p5{
     font-size: 1.2rem;
   }
@@ -180,19 +182,23 @@
     color: rgb(186, 18, 51);
   }
   .message{
-    /* width: 19rem; */
+    width: 100%;
     width: 92.5%;
     height: 29rem;
+    margin-top: 0;
+    margin-left: 0.8rem;
     margin-top: 1rem;
+    /* background-color: aqua; */
     border-radius: 0.2rem;
     border: 1px solid grey;
   }
   .send-msg{
-    margin-top: 1.2rem;
-    margin-left: 0.9rem;
     height: 58vh;
     width: 91%;
+    margin-top: 1rem;
+    margin-left: 1rem;
     /* background-color: blue; */
+    /* margin: 0; */
   }
   .send-msg h3{
     font-size: 1.3rem;
@@ -200,7 +206,7 @@
   .send-msg input{
     /* width: rem; */
     font-size: 0.8rem;
-    margin-top: 0;
+    margin: 0;
     padding: 0.3rem 0;
   }
   .send-msg label{
@@ -257,7 +263,7 @@
     height: 1.6rem;
     width: 5rem;
     border: none;
-    margin-top: 0.7rem;
+    margin-top: 1.1rem;
     font-size: 0.8rem;
   }
 }
