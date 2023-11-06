@@ -1,0 +1,248 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+      height: 83vh;
+      margin-bottom: 6rem;
+    }
+    .about-containers {
+      flex-wrap: wrap;
+    }
+    #contact,
+    #projects {
+      height: fit-content;
+    }
+
+    .image-section{
+      background-color: white;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
+    }
+    #hamburger-nav {
+      display: flex;
+    }
+    #experience,
+    .experience-details-container {
+      margin-top: 2rem;
+    }
+    #profile,
+    .section-container {
+      display: block;
+    }
+    .arrow {
+      display: none;
+    }
+    section,
+    .section-container {
+      height: fit-content;
+    }
+    section {
+      margin: 180px 5%;
+    }
+    .section__pic-container {
+      width: 275px;
+      height: 275px;
+      margin: 0 auto 2rem;
+    }
+    .about-containers {
+      margin-top: 0;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #contact,
+    footer {
+      height: 10vh;
+      width: 22.5rem;
+      margin-top: 0;
+    }
+    #profile {
+      /* height: 83vh; */
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    #about{
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    #skills{
+      margin-top: 5rem;
+      margin-bottom: 0;
+    }
+    #projects{
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    #cont-details{
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    article {
+      font-size: 1rem;
+    }
+    footer nav {
+      height: fit-content;
+      margin-bottom: 0rem;
+    }
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+      flex-wrap: wrap;
+    }
+    .contact-info-container {
+      margin: 0;
+    }
+    .image-section{
+      width: 18rem;
+    }
+    .hamburger-icon{
+      margin-left: 1.8rem;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 1rem;
+    }
+    .experience-sub-title {
+      font-size: 1.25rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .section__pic-container {
+      margin-top: 1rem;
+      width: auto;
+      height: 46vw;
+      justify-content: center;
+    }
+    .section__text__p2 {
+      font-size: 1.25rem;
+    }
+    .title {
+      font-size: 2rem;
+    }
+    .text-container {
+      text-align: justify;
+      /* background-color: black; */
+      width: 21rem;
+      height: 13.5rem;
+    }
+    .paragraph-text{
+      width: 20.2rem;
+      height: 12rem;
+      /* margin-right: 5rem; */
+    }
+    .section__text__p1{
+      font-size: 2.3rem;
+    }
+    .text-container p{
+      font-size: 1rem;
+      /* background-color: blueviolet; */
+    }
+
+    .contact-details {
+      display: flex;
+      flex-direction: column;
+      height: 850px;
+      width: 21.5rem;
+      background-color: white;
+      margin-top: 0;
+      margin-left: 0;
+    }
+
+  .contact-me,.send-msg,.message{
+    margin-left: 20px;
+    padding: 0;
+  }
+
+  .contact-me p5{
+    font-size: 1.2rem;
+  }
+
+  .contact-me h2{
+    font-size: 2.2rem;
+    color: rgb(186, 18, 51);
+  }
+  .message{
+    width: 20.3rem;
+    height: 29rem;
+    margin-top: 1rem;
+    border-radius: 0.2rem;
+  }
+  .send-msg{
+    margin-top: 1.2rem;
+    margin-left: 1.25rem;
+    height: 10vh;
+  }
+  .send-msg h3{
+    font-size: 1.3rem;
+  }
+  .send-msg input{
+    width: 17.8rem;
+    font-size: 0.8rem;
+    margin-top: 0;
+    padding: 0.3rem 0;
+  }
+  .send-msg label{
+    font-size: 0.85rem;
+  }
+
+  .send-msg textarea{
+    width: 17.2rem;
+    font-size: 0.8rem;
+  }
+
+  .send-msg button{
+    margin-top: 0.8rem;
+    width: 5rem;
+    height: 2rem;
+    font-size: 0.9rem;
+    border-radius: 0.2rem;
+  }
+  .image-section h2{
+    font-size: 1.4rem;
+  }
+  .profile-pic{
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+  .image-section .profile-pic{
+    margin-left: 1rem;
+    margin-top: 0;
+  }
+  .hamburger-icon{
+    width: 1.3rem;
+    height: 1rem;
+  }
+  .menu-links a{
+    font-size: 1rem;
+    margin-top: 0;
+    row-gap: 0;
+  }
+  .nav-links-footer a{
+    font-size: 1rem;
+    /* gap: 0rem; */
+  }
+  footer p{
+    font-size: 0.8rem;
+  }
+
+  footer .nav-links-footer{
+    font-size: 1rem;
+    gap: 1.2rem;
+  }
+
+  #submit-button{
+    height: 1.6rem;
+    width: 5rem;
+    border: none;
+    margin-top: 0.7rem;
+    font-size: 0.8rem;
+  }
+}

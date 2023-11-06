@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RS-01: Welcome to My Portfolio!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="image-section">
+        <img src="Images/nav-bar-image.jpg" alt="" class="profile-pic">
+        <h2>RAVI KUMAR PATEL</h2>
+      </div>
+      <div class="nav-links-div">
+        <ul class="nav-links">
+          <li><a href="#profile">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#cont-details">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <!-- <div class="logo">Ravi Kumar Patel</div> -->
+      <div class="image-section">
+        <img src="Images/nav-bar-image.jpg" alt="" class="profile-pic">
+        <h2>RAVI KUMAR PATEL</h2>
+      </div>
+
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#cont-details" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="Images/profile_image.png" alt="My profile picture"/>
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">RAVI KUMAR PATEL</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <a href="https://drive.google.com/uc?export=download&id=1fE1r2FCJ1PbBfpEG3brHZhsJam4AjLm6" target="_blank" rel="noopener noreferrer"><button class="btn btn-color-2">DOWNLOAD CV</button></a>
+
+          <button class="btn btn-color-1" onclick="location.href='./#cont-details'">
+            CONTACT INFO
+          </button>
+        </div>
+
+        <div class="social-container">
+            <a href="https://www.linkedin.com/in/ravi-kumar-patel-01a9a8247/" target="_blank"><img src="Images/linkedin.png" alt="" class="linked-in"></a> 
+            <a href="https://github.com/ravikrpatel01" target="_blank"><img src="Images/github.png" alt="" class="github"></a>
+            <a href="https://leetcode.com/ravikrpatel01/" target="_blank"><img src="Images/leetcode.ico" alt="" class="leetcode"></a>
+            <a href="https://auth.geeksforgeeks.org/user/ravikrpatel01/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user" target="_blank"><img src="Images/icons8-geeksforgeeks.svg" alt="" class="gfg"></a>
+            <a href="https://www.hackerrank.com/ravikrpatel01" target="_blank"><img src="Images/hackerrank.svg" alt="" class="hacker-rank"></a>
+            <a href="https://www.facebook.com/ravikrpatel01" target="_blank"><img src="Images/facebook.png" alt="" class="facebook"></a>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="Images/profile-image01.jpg" alt="Profile picture" class="about-pic"/>
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="Images/education.png"
+                alt="Education icon"
+                class="icon-education"
+              />
+              <div class="h3-div-edu">
+                <h3>GRADUATION</h3>
+              </div>
+              <div class="p1-div">
+                <p1>B.Sc in Computer Application</p1>
+              </div>
+              <div class="p3-div">
+                <p3>Dr. Shyama Prasad Mukherjee University, Ranchi</p3>
+              </div>
+              <div class="p2-div">
+                <p2><strong>CGPA:</strong> 8.36</p2>
+              </div>
+            </div>
+            <div class="details-container">
+              <img src="Images/education.png" alt="Education icon" class="icon-education"/>
+              <div class="h3-div-edu">
+                <h3>POST GRADUATION</h3>
+              </div>
+              <div class="p1-div">
+                <p1>Master's of Computer Application</p1>
+              </div>
+              <div class="p3-div">
+                <p3>Vellore Institute of Technology, Vellore</p3>
+              </div>
+              <div class="p2-div">
+                <p2><strong>CGPA:</strong> 8.37</p2>
+              </div>
+              
+            </div>
+          </div>
+          <div class="text-container">
+            <div class="paragraph-text">
+              <p>I'm <strong>Ravi Kumar Patel</strong>, currently pursuing a Master's in Computer Applications (MCA) at <strong>VIT, Vellore</strong>. I'm passionate about web development and aspire to become a <strong>Full Stack Developer</strong>. I enjoy creating engaging and user-friendly websites, and I'm enthusiastic about staying up-to-date with the latest technologies and design trends in the field. My goal is to combine my academic knowledge with my creativity to build exceptional user experiences on the web.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <p class="section__text__p">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="skills-details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="Images/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="Images/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="Images/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="Images/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React JS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="skills-details-container">
+            <h2 class="experience-sub-title">Programming Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="Images/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="Images/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="Images/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="Images/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>My SQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section id="projects">
+      <p class="section__text__p">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="Images/weather-app.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Weather App Website</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/ravikrpatel01/weather-app', '_blank');"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://ravikrpatel01.github.io/weather-app/', '_blank');"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="Images/amazon-image.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Amazon.com Website Landing Page Clone</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/ravikrpatel01/amazon-clone-website', '_blank');"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://ravikrpatel01.github.io/amazon-clone-website/', '_blank');"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="Images/e-commerce.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">E-commerce Website</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="contact-details" id="cont-details">
+      <div class="contact-me">
+          <p5>CONTACT ME</p5>
+          <h2>Let's talk</h2>
+          <h2>about you</h2>
+      </div>
+      <div class="message">
+          <div class="send-msg">
+              <form action="">
+                  <div class="h3-div">
+                      <h3>Send me a Message</h3>
+                  </div>
+                  <div class="full-name">
+                      <label for="fullname">Full Name</label><br>
+                      <input type="text" name="fullname" id="fname" placeholder="XYZ Patel">
+                  </div>
+                  <div class="email-enter">
+                      <label for="email">E-mail</label><br>
+                      <input type="email" name="email" id="email" placeholder="example@gmail.com">
+                  </div>
+                  <div class="subject-div">
+                      <label for="subject">Subject</label><br>
+                      <input type="text" name="subject" id="subject">
+                  </div>
+                  <div class="textarea-div">
+                      <label for="yourmsg">Your Message here</label><br>
+                      <textarea name="yourmsg" id="yourmsg" cols="46" rows="8" placeholder="Write your message here..."></textarea>
+                  </div> 
+                  <div class="button-div">
+                      <!-- <button type="button" class="msg-send-buttton">Send ➜</button> -->
+                      <input type="submit" value="SEND" id="submit-button"> 
+                  </div>  
+              </form>
+          </div>
+      </div>  
+  </div>
+    <footer>
+      <nav>
+        <div class="nav-links-container-bottom">
+          <ul class="nav-links-footer">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 | RS-01 | All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
