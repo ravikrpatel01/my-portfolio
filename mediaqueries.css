@@ -143,6 +143,7 @@
     }
     .text-container p{
       font-size: 1rem;
+      position:absolute;
       /* background-color: blueviolet; */
     }
 
