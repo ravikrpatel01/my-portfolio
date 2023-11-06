@@ -55,8 +55,9 @@
     #contact,
     footer {
       height: 10vh;
-      width: 22.5rem;
-      margin-top: 0;
+      width: 90%;
+      margin: auto;
+      /* margin-top: 0; */
     }
     #hamburger-nav{
       display: flex;
