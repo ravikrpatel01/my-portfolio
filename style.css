@@ -575,7 +575,7 @@ article .icon {
 }
 .contact-details{
   display: flex;
-  height: 850px;
+  height: 750px;
   width: 100%;
   background-color: white;
 }
@@ -676,12 +676,12 @@ textarea:focus {
 }
 footer{
   margin-top: 15rem;
-  height: 26vh;
+  height: 14vh;
   /* margin: 0 1rem; */
 }
 footer p{
   margin-top: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   text-align: center;
 }
 
@@ -702,4 +702,12 @@ strong{
   cursor: pointer;
   /* font-weight: 600; */
   font-size: 14px;
+}
+
+.nav-links-container-bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0;
 }
