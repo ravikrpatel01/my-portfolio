@@ -266,4 +266,13 @@
     margin-top: 1.1rem;
     font-size: 0.8rem;
   }
+  .nav-links-container-bottom{
+    display: flex;
+    justify-content: center;
+  }
+
+  .copy-right{
+    display: flex;
+    justify-content: center;
+  }
 }
