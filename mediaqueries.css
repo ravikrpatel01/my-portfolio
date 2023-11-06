@@ -128,23 +128,28 @@
       font-size: 2rem;
     }
     .text-container {
-      text-align: justify;
-      /* background-color: black; */
+      /* text-align: justify;
       width: 21rem;
-      height: 13.5rem;
+      height: 13.5rem; */
+
+      width: 100%;
+      max-width: 100%;
+      height: auto;
     }
     .paragraph-text{
-      width: 20.2rem;
-      height: 12rem;
-      /* margin-right: 5rem; */
+      /* width: 20.2rem;
+      height: 12rem; */
+
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
     }
     .section__text__p1{
-      font-size: 2.3rem;
+      font-size: 1.8rem;
+      text-align: center;
     }
     .text-container p{
-      font-size: 1rem;
-      position:absolute;
-      /* background-color: blueviolet; */
+      font-size: 0.9rem;
     }
 
     .contact-details {
