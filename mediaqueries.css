@@ -171,7 +171,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 0;
-    margin-left: 0.8rem;
+    margin-left: 0.7rem;
   }
   .contact-me p5{
     font-size: 1.2rem;
@@ -186,7 +186,7 @@
     width: 92.5%;
     height: 29rem;
     margin-top: 0;
-    margin-left: 0.8rem;
+    margin-left: 0.7rem;
     margin-top: 1rem;
     /* background-color: aqua; */
     border-radius: 0.2rem;
@@ -239,7 +239,7 @@
   .hamburger-icon{
     width: 1.3rem;
     height: 1rem;
-    margin-left: 1.5rem;
+    margin-left: 1.3rem;
   }
   .menu-links a{
     font-size: 1rem;
