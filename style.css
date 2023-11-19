@@ -26,13 +26,14 @@ a,
 
 /* DESKTOP NAV */
 #desktop-nav{
-    height: 80px;
+    height: 75px;
     width: 100%;
-    background-color: #F1EFEF;
+    background-color: #fff;
     position: sticky;
     top: 0;
     left: 0;
     z-index: 999;
+    border-bottom: .05rem solid black;
 }
 nav,
 .nav-links {
@@ -49,7 +50,7 @@ nav {
   display: flex;
   width: 400px;
   align-items: center;
-  background-color: #F1EFEF;
+  background-color: #fff;
   gap: 10px;
 }
 .profile-name{
@@ -95,20 +96,16 @@ nav {
   align-items: center;
   /* text-align: center; */
 }
-a {
-  color: black;
+.nav-links a {
+  color: rgb(0, 0, 0);
   text-decoration: none;
   text-decoration-color: white;
-  /* font-size: 1.2rem; */
-  /* margin-left: 0px; */
   font-weight: bold;
 }
 
-a:hover {
-  color: rgb(9, 62, 26);
-  text-decoration: underline;
-  text-underline-offset: 0.4rem;
-  text-decoration-color: rgb(181, 181, 181);
+.nav-links a:hover {
+  color: #04AA6D;
+  transition: all 1s ease;
 }
 
 .logo {
@@ -160,6 +157,8 @@ a:hover {
 .menu-links a {
   display: block;
   padding: 10px;
+  /* background: #0a9c5d; */
+  /* padding: .5rem ; */
   text-align: center;
   font-size: 1.5rem;
   color: black;
@@ -250,9 +249,11 @@ section #skills{
   color: #004225;
 }
 .section__text__p{
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-align: center;
   margin-top: 0.8rem;
+  color: #0a9c5d;
+  font-weight: 600;
 }
 .section__text__p2 {
   font-size: 1.75rem;
@@ -263,6 +264,7 @@ section #skills{
 .title {
   font-size: 3rem;
   text-align: center;
+  color: #030515;
 }
 
 #socials-container {
@@ -287,8 +289,8 @@ section #skills{
   gap: 1rem;
 }
 
-.btn-color-2{
-  color: black;
+.btn-color-0{
+  color: white;
   font-weight: 600;
   font-size: 4rem;
   transition: all 300ms ease;
@@ -296,7 +298,28 @@ section #skills{
   width: 10rem;
   border-radius: 0.2rem;
   border: none;
-  background-color:  #33ffcc;
+  background-color:  #04AA6D;
+  font-size: 0.91rem;
+  border: 1px solid grey;
+  margin-top: 0.5rem;
+  cursor: pointer;  
+}
+
+.btn-color-0:hover{
+  background-color:  #3385ff;
+  border: 1px solid grey;
+  transition: all 0.6s ease;  
+}
+.btn-color-2{
+  color: white;
+  font-weight: 600;
+  font-size: 4rem;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 10rem;
+  border-radius: 0.2rem;
+  border: none;
+  background-color:  #04AA6D;
   font-size: 0.91rem;
   border: 1px solid grey;
   margin-top: 0.5rem;
@@ -304,8 +327,8 @@ section #skills{
 
 .btn-color-1{
   color: white;
-  font-weight: 600;
-  font-size: 4rem;
+  /* font-weight: 600; */
+  font-size: 8rem;
   transition: all 300ms ease;
   padding: 1rem;
   width: 10rem;
@@ -317,12 +340,18 @@ section #skills{
   margin-top: 0.5rem;
 } 
 
-.btn-color-1:hover,
+.btn-color-1:hover{
+  cursor: pointer;
+  background-color:  #04AA6D;
+  border: 1px solid grey;
+  transition: all 0.6s ease;
+}
 .btn-color-2:hover {
   cursor: pointer;
   background-color:  #3385ff;
   border: 1px solid grey;
   transition: all 0.6s ease;
+  letter-spacing: .1rem;
 }
 
 .btn-container {
@@ -540,7 +569,6 @@ article .icon {
 .text-container{
   height: 300px;
   width: 740px;
-  /* background-color: #003042; */
   text-align: justify;
 }
 .text-container p{
@@ -548,14 +576,12 @@ article .icon {
   row-gap: 2rem;
   color: black;
 }
-/* FOOTER SECTION */
 
+/* FOOTER SECTION */
 
 .linked-in, .github, .hacker-rank, .facebook, .leetcode, .gfg{
   width: 28px;
   margin-right: 10px;
-  /* column-gap: 40px; */
-  /* margin-top: 10px; */
   transition: transform 0.2s;
 }
 
@@ -564,14 +590,11 @@ article .icon {
   z-index: 1;
 }
 .social-container{
-  /* background-color: #001C30; */
   margin-top: 20px;
-  /* gap: 10px; */
 }
 #contact{
   width: 89%;
   margin-top: 4rem;
-  /* background-color: #004225; */
 }
 .contact-details{
   display: flex;
@@ -583,22 +606,25 @@ article .icon {
   margin-left: 200px;
   margin-top: 100px;
 }
-.contact-me h2{
+.contact-details .contact-me h2{
   font-size: 50px;
   margin-top: 10px;
+  color: #030515;
+
 }
 
 .contact-me p5{
-  color: grey;
+  color: #0a9c5d;
   font-size: 1.3rem;
 }
-.message{
+.contact-details .message{
   width: 34rem;
   height: 79vh;
-  background-color: rgb(215, 215, 215);
+  background-color: #eee;
   margin-left: 120px;
   margin-top: 50px;
-  border-radius: 7px;   
+  border-radius: .3rem; 
+  border: .01rem solid rgb(112, 112, 112);  
 }
 .send-msg{
   display: flex;
@@ -631,19 +657,20 @@ article .icon {
   color: #0a9c5d;
 }
 #fname, #email, #subject{
-  width: 100%;
-  padding: 5px 0;
+  width: 98%;
+  padding: 5px 0px;
   margin-top: 0.2rem;
   margin-bottom: 12px;
   border: none;
   font-size: 1rem;
-  background-color: rgb(215, 215, 215);
+  background-color: #eee;
   border-bottom: 1px solid rgb(4, 4, 4);
 }
 
 input:focus {
   outline: none; 
   border-bottom: 2px solid rgb(23, 65, 43);
+  /* background: grey; */
 }
 textarea{
   border: none;
@@ -651,11 +678,11 @@ textarea{
   margin-top: 8px;
   font-size: 1rem;
   padding: 5px;
-  background-color: #efeeee;
+  background-color: #fff;
 }
 textarea:focus {
   outline: none; 
-  border: 1px solid black;
+  border: 1px solid rgb(75, 75, 75);
   background-color: white;
 }
 .send-icon{
@@ -673,10 +700,23 @@ textarea:focus {
   display: flex;
   gap: 2rem;
   font-size: 1.4rem;
+  
+}
+.nav-links-footer a{
+  text-decoration: none;
+  color: #030515;
+  font-weight: 600;
+}
+
+.nav-links-container-bottom{
+  margin-top: 1.5rem;
 }
 footer{
   margin-top: 15rem;
   height: 14vh;
+  border-top: .1rem solid rgb(172, 172, 172);
+  width: 98%;
+  margin: auto;
   /* margin: 0 1rem; */
 }
 footer p{
@@ -690,6 +730,11 @@ strong{
 }
 .icon-education{
   width: 2.7rem;
+}
+
+.copy-right span{
+  color: #04AA6D;
+  font-weight: bolder;
 }
 #submit-button{
   width: 120px;
