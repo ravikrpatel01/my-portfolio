@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="Images/icons8-portfolio-16.png" type="image/x-icon">
     <title>RS-01: Welcome to My Portfolio!</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
@@ -55,7 +56,7 @@
         <h1 class="title">RAVI KUMAR PATEL</h1>
         <p class="section__text__p2">Frontend Developer</p>
         <div class="btn-container">
-          <a href="https://drive.google.com/uc?export=download&id=1fE1r2FCJ1PbBfpEG3brHZhsJam4AjLm6" target="_blank" rel="noopener noreferrer"><button class="btn btn-color-2">DOWNLOAD CV</button></a>
+          <a href="https://drive.google.com/uc?export=download&id=1fE1r2FCJ1PbBfpEG3brHZhsJam4AjLm6" target="_blank" rel="noopener noreferrer"><button class="btn btn-color-0">DOWNLOAD CV</button></a>
 
           <button class="btn btn-color-1" onclick="location.href='./#cont-details'">
             CONTACT INFO
@@ -141,7 +142,7 @@
                 />
                 <div>
                   <h3>HTML</h3>
-                  <p>Experienced</p>
+                  <p>Intermediate</p>
                 </div>
               </article>
               <article>
@@ -152,7 +153,7 @@
                 />
                 <div>
                   <h3>CSS</h3>
-                  <p>Experienced</p>
+                  <p>Intermediate</p>
                 </div>
               </article>
 
@@ -295,17 +296,17 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Restaurant Website</h2>
+            <h2 class="experience-sub-title project-title">E-commerce Website</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/ravikrpatel01/restaurant-website'"
+                onclick="window.open('https://github.com/ravikrpatel01/restaurant-website', '_blank')"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://ravikrpatel01.github.io/restaurant-website/'"
+                onclick="window.open('https://ravikrpatel01.github.io/restaurant-website/', '_blank')"
               >
                 Live Demo
               </button>
@@ -317,7 +318,7 @@
     <div class="contact-details" id="cont-details">
       <div class="contact-me">
           <p5>CONTACT ME</p5>
-          <h2>Let's talk</h2>
+          <h2 class="lets-talk">Let's talk</h2>
           <h2>about you</h2>
       </div>
       <div class="message">
@@ -340,7 +341,7 @@
                   </div>
                   <div class="textarea-div">
                       <label for="yourmsg">Your Message here</label><br>
-                      <textarea name="yourmsg" id="yourmsg" cols="46" rows="8" placeholder="Write your message here..."></textarea>
+                      <textarea name="yourmsg" id="yourmsg" cols="46" rows="7" placeholder="Write your message here..."></textarea>
                   </div> 
                   <div class="button-div">
                       <!-- <button type="button" class="msg-send-buttton">Send ➜</button> -->
@@ -360,7 +361,7 @@
           </ul>
         </div>
         <div class="copy-right">
-          <p>Copyright &#169; 2023 | RS-01 | All Rights Reserved.</p>
+          <p>Copyright &#169; 2023 | <span>RS-01</span> | All Rights Reserved.</p>
         </div> 
     </footer>
     <script src="script.js"></script>
