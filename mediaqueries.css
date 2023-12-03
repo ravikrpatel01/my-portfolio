@@ -160,7 +160,7 @@
     .contact-details {
       display: flex;
       flex-direction: column;
-      height: 750px;
+      height: 700px;
       width: 95%;
       margin: auto;
       /* margin-top: 50rem; */
@@ -183,9 +183,8 @@
     color: rgb(186, 18, 51);
   }
   .message{
-    width: 100%;
-    width: 92.5%;
-    height: 29rem;
+    width: 93.2%;
+    height: 68vh;
     margin-top: 0;
     margin-left: 0.7rem;
     margin-top: 1rem;
@@ -202,29 +201,32 @@
     /* margin: 0; */
   }
   .send-msg h3{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    color: #141E46;
   }
-  .send-msg input{
-    /* width: rem; */
-    font-size: 0.8rem;
-    margin: 0;
+  #fname, #email, #subject{
+    font-size: 0.9rem;
+    margin-top: 0;
     padding: 0.3rem 0;
+    width: 100%;
   }
   .send-msg label{
-    font-size: 0.85rem;
+    font-size: 0.95rem;
   }
 
   .send-msg textarea{
-    width: 96.2%;
+    width: 96%;
     font-size: 0.8rem;
+    margin-bottom: 0.5rem;
   }
 
   .send-msg button{
-    margin-top: 0.8rem;
+    margin-top: 1.5rem;
     width: 5rem;
     height: 2rem;
     font-size: 0.9rem;
     border-radius: 0.2rem;
+    background-color: #7752FE;
   }
   .image-section h2{
     font-size: 1.2rem;
@@ -266,6 +268,7 @@
     margin-top: 1.1rem;
     font-size: 0.8rem;
   }
+
   .nav-links-container-bottom{
     display: flex;
     justify-content: center;
@@ -274,5 +277,21 @@
   .copy-right{
     display: flex;
     justify-content: center;
+    margin-bottom: 0;
+  }
+  /* .skills-details-container{
+    display: flex;
+  }
+  .article-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  } */
+
+  .project-btn{
+    background-color: #7752FE;
+    color: white;
+    font-size: 1rem;
   }
 }
