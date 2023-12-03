@@ -15,7 +15,7 @@ function toggleMenu() {
 
     form.addEventListener("submit", function(event) {
         let isValid = true;
-
+        alert("Hello Sir!");
         if (!validateName(nameInput.value)) {
             nameInput.style.borderColor = "red";
             isValid = false;
