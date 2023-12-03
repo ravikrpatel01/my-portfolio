@@ -656,7 +656,7 @@ section #cont-details{
   /* background-color: #004225; */
 }
 .msg-send-buttton{
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   height: 2.3rem;
   width: 10rem;
   color: white;
@@ -712,9 +712,7 @@ textarea:focus {
 }
 
 .nav-links-container-bottom{
-  /* background-color: #004225; */
   margin: auto;
-  /* margin-top: 2rem; */
 }
 .nav-links-footer{
   list-style: none;
@@ -761,18 +759,6 @@ strong{
 .copy-right span{
   color: #04AA6D;
   font-weight: bolder;
-}
-#submit-button{
-  width: 120px;
-  height: 32px;
-  margin-top: 32px;
-  border: none;
-  background-color: #004225;
-  border-radius: 2px;
-  color: #F1EFEF;
-  cursor: pointer;
-  /* font-weight: 600; */
-  font-size: 14px;
 }
 
 .nav-links-container-bottom{
