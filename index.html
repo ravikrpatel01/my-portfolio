@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="Images/icons8-portfolio-16.png" type="image/x-icon">
     <title>RS-01: Welcome to My Portfolio!</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
+    <!-- <link rel="stylesheet" href="mediaqueries.css" /> -->
   </head>
   <body>
     <nav id="desktop-nav">
@@ -324,29 +324,28 @@
       </div>
       <div class="message">
           <div class="send-msg">
-              <form action="">
+              <form class="form" action="https://formsubmit.co/ravikumarpatel2001@gmail.com" method="POST">
                   <div class="h3-div">
                       <h3>Send me a Message</h3>
                   </div>
                   <div class="full-name">
                       <label for="fullname">Full Name</label><br>
-                      <input type="text" name="fullname" id="fname" placeholder="XYZ Patel">
+                      <input type="text" name="Full Name" id="fname" placeholder="XYZ Patel">
                   </div>
                   <div class="email-enter">
                       <label for="email">E-mail</label><br>
-                      <input type="email" name="email" id="email" placeholder="example@gmail.com">
+                      <input type="email" name="Email" id="email" placeholder="example@gmail.com">
                   </div>
                   <div class="subject-div">
                       <label for="subject">Subject</label><br>
-                      <input type="text" name="subject" id="subject">
+                      <input type="text" name="Subject" id="subject">
                   </div>
                   <div class="textarea-div">
                       <label for="yourmsg">Your Message here</label><br>
-                      <textarea name="yourmsg" id="yourmsg" cols="46" rows="7" placeholder="Write your message here..."></textarea>
+                      <textarea name="Your Message" id="yourmsg" cols="46" rows="7" placeholder="Write your message here..."></textarea>
                   </div> 
                   <div class="button-div">
-                      <!-- <button type="button" class="msg-send-buttton">Send ➜</button> -->
-                      <input type="submit" value="SEND MESSAGE >>" class="msg-send-buttton id="submit-button"> 
+                      <button type="submit" class="msg-send-buttton" id="submit-button">SEND MESSAGE >></button>
                   </div>  
               </form>
           </div>
