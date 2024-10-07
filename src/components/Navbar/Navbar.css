@@ -82,4 +82,8 @@
     .nav-links{
         display: none;
     }
+    .navbar-contents .logo img{
+        border:none;
+        padding: 0;
+    }        
 }
