@@ -1,0 +1,18 @@
+.cursor-follower {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white; /* Customize color */
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 99999; /* Ensure it's on top */
+  transform: translate(-50%, -50%); /* Center the element on the cursor */
+}
+
+@media (max-width:720px) {
+  .cursor-follower{
+    display: none;
+  }
+}
