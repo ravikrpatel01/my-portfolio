@@ -30,7 +30,7 @@
 }
 
 .card-items {
-    background-image: url("./image_01.jpg");
+    background-image: url("/image_01.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
