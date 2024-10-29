@@ -1,17 +1,15 @@
 import React from "react";
-import "./Contact.css";
+// import "./Contact.css";
 
 const Contact = () => {
   return (
     <>
-      <div className="contact-main-container">
-        <div className="contact-contents">
-          <div className="image">
-            {/* <img src="./image_02.png" alt="" /> */}
+      <div id="contact" className="bg-[#111] py-10 flex w-full items-center justify-center h-[90vh] px-10">
+        <div className="flex w-full items-center justify-evenly gap-4">
+          <div className="w-1/2 h-[61vh] flex items-center justify-center border-[1px]">
             <iframe
               src="https://maps.google.com/maps?q=Bengaluru,%20Karnataka&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
-              width="620"
-              height="460"
+              className="w-full h-[100%]"
               frameBorder="0"
               style={{ border: "0" }}
               allowFullScreen=""
@@ -20,37 +18,62 @@ const Contact = () => {
               title="Google Map"
             ></iframe>
           </div>
-          <div className="contact-form">
-            <div className="form-contents">
-              <h2>Get In Touch</h2>
-              <div className="name">
-                <div className="fname">
-                  <input type="text" placeholder="First Name" />
+          <div className=" flex flex-col w-1/2 h-[70vh] p-5 gap-4">
+            <div>
+              <h2 className="text-3xl font-semibold">Get In Touch</h2>
+            </div>
+
+            <form className="flex flex-col gap-4" action="">
+              <div className="flex w-full justify-between gap-5">
+                <div className="w-full ">
+                  <input
+                    className="w-full px-3 bg-[#111] py-2 outline-none text-white border-[1px] border-gray-400 rounded"
+                    type="text"
+                    placeholder="First Name"
+                    required
+                  />
                 </div>
-                <div className="lname">
-                  <input type="text" placeholder="Last Name" />
+                <div className="w-full ">
+                  <input
+                    className="w-full bg-[#111] px-3 py-2 outline-none text-white border-[1px] border-gray-400 rounded"
+                    type="text"
+                    placeholder="Last Name"
+                  />
                 </div>
               </div>
-              <div className="email-mobile">
-                <div className="email">
-                  <input type="text" placeholder="Email" />
+              <div className="flex w-full justify-between gap-5">
+                <div className="w-full ">
+                  <input
+                    className="w-full px-3 bg-[#111] py-2 outline-none text-white border-[1px] border-gray-400 rounded"
+                    type="text"
+                    placeholder="Email"
+                    required
+                  />
                 </div>
-                <div className="phoneno">
-                  <input type="text" placeholder="Phone No." />
+                <div className="w-full">
+                  <input
+                    className="w-full px-3 bg-[#111] py-2 outline-none text-white border-[1px] border-gray-400 rounded"
+                    type="text"
+                    placeholder="Phone No."
+                  />
                 </div>
               </div>
-              <div className="message">
+              <div className="w-full">
                 <textarea
+                  className="w-full px-3 py-2 bg-[#111] outline-none text-white border-[1px] border-gray-400 rounded"
                   name="message"
                   id="message"
                   rows={8}
                   placeholder="Message"
+                  required
                 ></textarea>
               </div>
-              <div className="submit-button">
-                <button>SEND YOUR MESSAGE</button>
+              <div className="">
+                <button className="bg-emerald-700 px-4 py-2">
+                  SEND MESSAGE
+                </button>
               </div>
-            </div>
+            </form>
           </div>
         </div>
       </div>
