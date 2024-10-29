@@ -10,7 +10,7 @@ const Education = () => {
         </div>
       </div>
       <div className="w-full h-[95vh] grid grid-cols-2 grid-rows-2 gap-8 p-1">
-        <div className="w-full flex justify-center p-5 border-[1px] border-gray-400 rounded items-center flex-col h-full hover:bg-[#111] hover:scale-y-105 cursor-pointer transition-all">
+        <div className="w-full flex justify-center p-5 border-[1px] border-gray-400 rounded items-center flex-col h-full hover:bg-[#111] hover:scale-105 cursor-pointer transition-all">
           <div className="w-full h-full flex flex-col gap-3 items-center justify-center">
             <div className="flex text-center">
               <FaUserGraduate
@@ -37,7 +37,7 @@ const Education = () => {
             </div>
           </div>
         </div>
-        <div className="w-full flex justify-center p-5 border-[1px] border-gray-400 rounded items-center flex-col h-full hover:bg-[#111] hover:scale-y-105 cursor-pointer transition-all">
+        <div className="w-full flex justify-center p-5 border-[1px] border-gray-400 rounded items-center flex-col h-full hover:bg-[#111] hover:scale-105 cursor-pointer transition-all">
           <div className="w-full h-full flex flex-col gap-3 items-center justify-center">
             <div className="flex text-center">
               <FaUserGraduate
@@ -64,7 +64,7 @@ const Education = () => {
             </div>
           </div>
         </div>
-        <div className="w-full flex justify-center p-5 border-[1px] border-gray-400 rounded items-center flex-col h-full hover:bg-[#111] hover:scale-y-105 cursor-pointer transition-all">
+        <div className="w-full flex justify-center p-5 border-[1px] border-gray-400 rounded items-center flex-col h-full hover:bg-[#111] hover:scale-105 cursor-pointer transition-all">
           <div className="w-full h-full flex flex-col gap-3 items-center justify-center">
             <div className="flex text-center">
               <FaUserGraduate
@@ -91,7 +91,7 @@ const Education = () => {
             </div>
           </div>
         </div>
-        <div className="w-full flex justify-center p-5 border-[1px] border-gray-400 rounded items-center flex-col h-full hover:bg-[#111] hover:scale-y-105 cursor-pointer transition-all">
+        <div className="w-full flex justify-center p-5 border-[1px] border-gray-400 rounded items-center flex-col h-full hover:bg-[#111] hover:scale-105 cursor-pointer transition-all">
           <div className="w-full h-full flex flex-col gap-3 items-center justify-center">
             <div className="flex text-center">
               <FaUserGraduate

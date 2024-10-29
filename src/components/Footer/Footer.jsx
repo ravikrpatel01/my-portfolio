@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import {
   FaGithub,
   FaLinkedin,
@@ -31,22 +32,32 @@ const Footer = () => {
           </div>
           <div>
             <ul className="flex gap-10">
-              <li className="flex flex-col text-[1rem] items-center cursor-pointer justify-center gap-1">
-                <FaHouse size={26} color="gray" />
-                Home
-              </li>
-              <li className="flex flex-col items-center cursor-pointer justify-center gap-1">
-                <FaUserGraduate size={26} color="gray" />
-                Education
-              </li>
-              <li className="flex flex-col text-[1rem] cursor-pointer items-center justify-center gap-1">
-                <FaTools size={26} color="gray" />
-                Skills
-              </li>
-              <li className="flex flex-col text-[1rem] cursor-pointer items-center justify-center gap-1">
-                <FaLaptopCode size={26} color="gray" />
-                Projects
-              </li>
+              <Link to="home" smooth={true} duration={500}>
+                <li className="flex flex-col text-[1rem] items-center cursor-pointer justify-center gap-1">
+                  <FaHouse size={26} color="gray" />
+                  Home
+                </li>
+              </Link>
+
+              <Link to="education" smooth={true} duration={500}>
+                <li className="flex flex-col items-center cursor-pointer justify-center gap-1">
+                  <FaUserGraduate size={26} color="gray" />
+                  Education
+                </li>
+              </Link>
+
+              <Link to="skills" smooth={true} duration={500}>
+                <li className="flex flex-col text-[1rem] cursor-pointer items-center justify-center gap-1">
+                  <FaTools size={26} color="gray" />
+                  Skills
+                </li>
+              </Link>
+              <Link to="projects" smooth={true} duration={500}>
+                <li className="flex flex-col text-[1rem] cursor-pointer items-center justify-center gap-1">
+                  <FaLaptopCode size={26} color="gray" />
+                  Projects
+                </li>
+              </Link>
             </ul>
           </div>
           <div className="flex flex-col gap-3">
@@ -54,26 +65,43 @@ const Footer = () => {
               <h3 className="text-xl font-semibold">Connect with me!</h3>
             </div>
             <div className="flex gap-5">
-              <FaGithub
-                className="icon cursor-pointer hover:scale-[1.3] transition-all"
-                size={25}
-                color="gray"
-              />
-              <FaLinkedin
-                className="icon cursor-pointer hover:scale-[1.3] transition-all"
-                size={25}
-                color="#0077B5"
-              />
-              <FaInstagram
-                className="icon cursor-pointer hover:scale-[1.3] transition-all"
-                size={25}
-                color="#DC143C"
-              />
-              <FaFacebookSquare
-                className="icon cursor-pointer hover:scale-[1.3] transition-all"
-                size={25}
-                color="#0A5EBA"
-              />
+              <a href="https://github.com/ravikrpatel01" target="_blank">
+                <FaGithub
+                  className="icon cursor-pointer hover:scale-[1.3] transition-all"
+                  size={25}
+                  color="gray"
+                />
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/ravi-kumar-patel-01a9a8247/"
+                target="_blank"
+              >
+                <FaLinkedin
+                  className="icon cursor-pointer hover:scale-[1.3] transition-all"
+                  size={25}
+                  color="#0077B5"
+                />
+              </a>
+
+              <a
+                href="https://www.instagram.com/ravikrpatel_01/"
+                target="_blank"
+              >
+                <FaInstagram
+                  className="icon cursor-pointer hover:scale-[1.3] transition-all"
+                  size={25}
+                  color="#DC143C"
+                />
+              </a>
+
+              <a href="https://www.facebook.com/ravikrpatel01/" target="_blank">
+                <FaFacebookSquare
+                  className="icon cursor-pointer hover:scale-[1.3] transition-all"
+                  size={25}
+                  color="#0A5EBA"
+                />
+              </a>
             </div>
           </div>
         </div>

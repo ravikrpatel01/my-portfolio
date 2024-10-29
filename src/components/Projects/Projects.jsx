@@ -3,50 +3,63 @@ import React from "react";
 const data = [
   {
     id: 1,
-    projectTitle: "To-Do List",
-    technologyUsed: "React, Redux, CSS, Firebase",
-    imgUrl: "/project1.jpg",
-    githubLink: "https://github.com/username/ecommerce-platform",
-    deployedLink: "https://ecommerce-platform.example.com",
+    projectTitle: "Employee Management",
+    technologyUsed: "React, Tailwind CSS, Context API, LocalStorage",
+    imgUrl: "/employee-management.jpg",
+    githubLink: "https://github.com/ravikrpatel01/employee-management",
+    deployedLink: "https://employee-management-three-rho.vercel.app/",
   },
   {
     id: 2,
-    projectTitle: "Blogify",
-    technologyUsed: "Node.js, Express, MongoDB, EJS, JWT",
-    imgUrl: "/blogify.jpg",
-    githubLink: "https://github.com/username/blogify",
-    deployedLink: "https://blogify.example.com",
+    projectTitle: "Jayka",
+    technologyUsed: "React, Context API, CSS",
+    imgUrl: "/jayka.jpg",
+    githubLink: "https://github.com/ravikrpatel01/ecom-jayka-web-project/",
+    deployedLink: "https://ecom-jayka-web-project.vercel.app/",
   },
   {
     id: 3,
-    projectTitle: "Employee Management",
-    technologyUsed: "React, Context API, LocalStorage",
-    imgUrl: "/employee-management.jpg",
-    githubLink: "https://github.com/username/employee-management",
-    deployedLink: "https://employee-management.example.com",
+    projectTitle: "Blogify",
+    technologyUsed: "Node.js, Express.js, MongoDB, EJS, JWT",
+    imgUrl: "/blogify.jpg",
+    githubLink: "https://github.com/ravikrpatel01/blogify",
+    deployedLink: "https://blogify-iota-ashy.vercel.app/",
   },
   {
     id: 4,
-    projectTitle: "Hospital Management",
-    technologyUsed: "Java, Spring Boot, MySQL, Thymeleaf",
-    imgUrl: "/hospital-management.jpg",
-    githubLink: "https://github.com/username/hospital-management",
-    deployedLink: "https://hospital-management.example.com",
+    projectTitle: "To-Do List",
+    technologyUsed: "React, Tailwind CSS, Local Storage",
+    imgUrl: "/todo.jpg",
+    githubLink: "https://github.com/ravikrpatel01/todo-list",
+    deployedLink: "https://todo-list-seven-alpha-52.vercel.app/",
   },
+
   {
     id: 5,
-    projectTitle: "Jayka",
-    technologyUsed: "React, CSS, API Integration",
-    imgUrl: "/food-delivery.jpg",
-    githubLink: "https://github.com/username/food-delivery-app",
-    deployedLink: "https://food-delivery.example.com",
+    projectTitle: "BMI Calculator",
+    technologyUsed: "HTML, CSS, JavaScript",
+    imgUrl: "/bmi-calculator.jpg",
+    githubLink: "https://github.com/ravikrpatel01/bmi-calculator-website",
+    deployedLink: "https://ravikrpatel01.github.io/bmi-calculator-website/",
+  },
+
+  {
+    id: 6,
+    projectTitle: "Weather App",
+    technologyUsed: "HTML, CSS, JavaScript, API, JSON",
+    imgUrl: "/weather.jpg",
+    githubLink: "https://github.com/ravikrpatel01/weather-app",
+    deployedLink: "https://ravikrpatel01.github.io/weather-app/",
   },
 ];
 
 const Projects = () => {
   return (
     <>
-      <div id="projects" className="bg-[#212121] w-full h-[130vh] flex flex-col gap-10 p-10">
+      <div
+        id="projects"
+        className="bg-[#212121] w-full h-[135vh] flex flex-col gap-10 p-10"
+      >
         <div className="flex flex-col items-center gap-3">
           <div>
             <p className="text-[1.2rem]">My Recent Projects</p>
@@ -60,7 +73,7 @@ const Projects = () => {
           {data.map((project) => (
             <div
               key={project.id}
-              className="bg-[#212121] px-5 py-6 border-[1px] relative rounded h-[48vh]"
+              className="bg-[#212121] px-5 py-6 border-[1px] cursor-pointer transition-all relative rounded h-[50vh] hover:bg-[#111] hover:scale-105"
             >
               <div>
                 <div className="w-full h-[160px]">
@@ -80,12 +93,16 @@ const Projects = () => {
                   </h3>
                 </div>
                 <div className="flex justify-between w-full absolute bottom-5 left-0 px-4">
-                  <button className="bg-emerald-600 px-4 py-2 rounded text-white">
-                    Github Link
-                  </button>
-                  <button className="bg-emerald-600 px-4 py-2 rounded text-white">
-                    Project Demo
-                  </button>
+                  <a href={project.githubLink} target="_blank">
+                    <button className="bg-emerald-600 px-4 py-2 rounded text-white">
+                      Github Link
+                    </button>
+                  </a>
+                  <a href={project.deployedLink} target="_blank">
+                    <button className="bg-emerald-600 px-4 py-2 rounded text-white">
+                      Project Demo
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
