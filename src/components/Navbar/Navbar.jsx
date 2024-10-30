@@ -124,7 +124,7 @@ const Navbar = () => {
             <div className="border-[1px] border-gray-400 h-7 mx-4"></div>
             <div className="">
               <a
-                href="https://drive.google.com/uc?export=download&id=12qGPmltHvBb6RTdpq-LOCoPFYt6FGshT"
+                href="https://drive.google.com/uc?export=download&id=1Wh_TFhM-Kc3WNi6E1E2p1utMhltIOt9t"
                 download
                 target="_blank"
                 rel="noopener noreferrer"
