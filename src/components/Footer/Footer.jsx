@@ -11,13 +11,13 @@ import {
 } from "react-icons/fa";
 import { FaHouse } from "react-icons/fa6";
 import { IoMdMailUnread } from "react-icons/io";
-// import "./Footer.css";
+import "./Footer.css";
 
 const Footer = () => {
   return (
     <>
       <div id="footer" className="w-full h-[20vh] bg-[#212121] px-10 py-10">
-        <div className="flex justify-between">
+        <div id="footer-cards" className="flex justify-between">
           <div className="flex flex-col gap-2">
             <h3 className="text-2xl flex items-center gap-2 font-semibold">
               <FaUserGraduate size={26} color="gray" />
@@ -30,7 +30,7 @@ const Footer = () => {
               </a>
             </h4>
           </div>
-          <div>
+          <div id="list-items">
             <ul className="flex gap-10">
               <Link to="home" smooth={true} duration={500}>
                 <li className="flex flex-col text-[1rem] items-center cursor-pointer justify-center gap-1">
@@ -64,7 +64,7 @@ const Footer = () => {
             <div>
               <h3 className="text-xl font-semibold">Connect with me!</h3>
             </div>
-            <div className="flex gap-5">
+            <div id="links" className="flex gap-5">
               <a href="https://github.com/ravikrpatel01" target="_blank">
                 <FaGithub
                   className="icon cursor-pointer hover:scale-[1.3] transition-all"

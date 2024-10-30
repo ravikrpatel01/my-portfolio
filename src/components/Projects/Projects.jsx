@@ -1,10 +1,11 @@
 import React from "react";
+import './Projects.css'
 
 const data = [
   {
     id: 1,
     projectTitle: "Employee Management",
-    technologyUsed: "React, Tailwind CSS, Context API, LocalStorage",
+    technologyUsed: "React, Tailwind CSS, Context API, Local Storage",
     imgUrl: "/employee-management.jpg",
     githubLink: "https://github.com/ravikrpatel01/employee-management",
     deployedLink: "https://employee-management-three-rho.vercel.app/",
@@ -69,9 +70,10 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-3 grid-rows-2 gap-10">
+        <div id="projects-cards" className="grid grid-cols-3 grid-rows-2 gap-10">
           {data.map((project) => (
             <div
+            id="project-card"
               key={project.id}
               className="bg-[#212121] px-5 py-6 border-[1px] cursor-pointer transition-all relative rounded h-[50vh] hover:bg-[#111] hover:scale-105"
             >

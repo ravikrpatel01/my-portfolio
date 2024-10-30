@@ -1,0 +1,21 @@
+
+@media (max-width:768px) {
+    #education{
+        width: 100%;
+        padding: 25px 15px;
+        height: auto;
+    }
+    
+    #edu-cards{
+        width: 100%;
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        padding: 0;
+        /* background-color: blueviolet; */
+    }
+
+    #edu-card{
+        transform: none;
+    }
+}

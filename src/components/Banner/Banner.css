@@ -1,0 +1,46 @@
+@media (max-width:768px) {
+    #home{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        /* background-color: rgb(23, 61, 61); */
+        padding: 25px 10px 10px 10px;
+        margin-top: 0px;
+    }
+
+    #left-card{
+        display: flex;
+        width: 100%;
+        height: auto;
+        /* background-color: blueviolet; */
+        padding: 20px 0px;
+        margin-top: 10px;
+        gap: 18px;
+    }
+    
+    #left-card h2 #hello{
+        font-size: 67px;
+    }
+    #left-card h2 #name{
+        font-size: 85px;
+    }
+    #left-card h2 #role{
+        font-size: 42px;
+        /* background-color: aqua; */
+    }
+    #left-card h3{
+        font-size: 1.5rem;
+    }
+
+    #right-card{
+        width: 100%;
+        height: 42vh;
+        /* background: #d51414; */
+        margin-top: 75px;
+    }
+
+    #right-card-element{
+        width: 100%;
+    }
+}

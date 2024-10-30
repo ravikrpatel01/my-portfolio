@@ -24,25 +24,25 @@ const Skills = () => {
     <>
       <div id="skills" className="bg-[#111] w-full h-[85vh] px-10 py-[3rem]">
         <div className="flex flex-col gap-4 items-center">
-          <div className="">
+          <div className="text-center">
             <h2 className="text-3xl font-semibold">SKILLS</h2>
           </div>
-          <div className="text-[1.3rem] text-gray-400">
+          <div id="expertise" className="text-center text-[1.3rem] text-gray-400">
             <p>
-              <strong>What I'm Expert In:</strong> Frontend Development{" "}
-              <span>|</span> <strong>What I Can Deliver:</strong> Clean and
+              <strong>What I'm Expert In:</strong> Frontend Development {" "}
+              <span id="hide">|</span> <strong>What I Can Deliver:</strong> Clean and
               Efficient Code
             </p>
           </div>
         </div>
 
-        <div className="flex gap-10 justify-around px-5 py-20">
-          <div className="flex flex-col items-center">
+        <div id="skills-card" className="flex gap-10 justify-around px-5 py-20">
+          <div>
             <div className="text-center">
               <h3 className="text-4xl font-semibold">PROGRAMING</h3>
             </div>
-            <div className="flex mt-10 w-full justify-center items-center">
-              <div className="flex gap-10 w-full">
+            <div className="flex mt-10 gap-10 w-full justify-between items-center">
+              <div className="flex gap-0 w-full justify-evenly items-center">
                 <div className="flex flex-col items-center">
                   <FaJava
                     className="icon cursor-pointer"
@@ -112,15 +112,6 @@ const Skills = () => {
                   />
                   <h3>Tailwind CSS</h3>
                 </div>
-
-                {/* <div className="flex flex-col items-center">
-                  <FaBootstrap
-                    className="icon cursor-pointer"
-                    size={80}
-                    color="gray"
-                  />
-                  <h3>Bootstrap</h3>
-                </div> */}
               </div>
             </div>
           </div>

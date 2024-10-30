@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import './Contact.css'
 
 const Contact = () => {
   const [firstName, setFirstName] = useState("");
@@ -43,8 +44,8 @@ const Contact = () => {
         id="contact"
         className="bg-[#111] py-10 flex w-full items-center justify-center h-[90vh] px-10"
       >
-        <div className="flex w-full items-center justify-evenly gap-4">
-          <div className="w-1/2 h-[61vh] flex items-center justify-center border-[1px]">
+        <div id="contact-card" className="flex w-full items-center justify-evenly gap-4">
+          <div id="geo-card" className="w-1/2 h-[61vh] flex items-center justify-center border-[1px]">
             <iframe
               src="https://maps.google.com/maps?q=Bengaluru,%20Karnataka&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
               className="w-full h-[100%]"
@@ -56,7 +57,7 @@ const Contact = () => {
               title="Google Map"
             ></iframe>
           </div>
-          <div className=" flex flex-col w-1/2 h-[70vh] p-5 gap-4">
+          <div id="form-card" className=" flex flex-col w-1/2 h-[70vh] p-5 gap-4">
             <div>
               <h2 className="text-3xl font-semibold">Get In Touch</h2>
             </div>

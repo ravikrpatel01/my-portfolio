@@ -1,23 +1,20 @@
-.projects {
+@media (max-width:768px) {
+  #projects{
     width: 100%;
-    background-color: rgb(241, 241, 241);
-    height: 80vh;
+    padding: 25px 15px;
+    height: auto;
   }
-  .projects .heading {
+  #projects-cards{
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 15px;
   }
-  
-  .projects .heading p {
-    margin-top: 20px;
-    color: gray;
-    font-size: 1.1rem;
+  #project-card{
+    width: 100%;
+    height: 39vh;
+    transform: none;
   }
-  .projects .heading h2 {
-    margin-top: 6px;
-    color: rgb(82, 82, 82);
-    font-size: 1.8rem;
-  }
+}
   
   
