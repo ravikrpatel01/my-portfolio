@@ -11,17 +11,17 @@ import { FaHouse } from "react-icons/fa6";
 import { SiLeetcode, SiGeeksforgeeks } from "react-icons/si";
 import { IoMdMailUnread } from "react-icons/io";
 import { Link } from "react-scroll";
+import './Humburger.css'
 
 const Humburger = (props) => {
   const { toggleLinks, menu } = props;
-  //   console.log(menu);
-  //   console.log(toggleLinks);
 
   return (
-    <div
+    <div 
+      id="menu-bar"
       className={`${menu} fixed flex-col top-0 z-50 w-full bg-[#212121] mt-[77px] h-[35vh] py-2 px-1`}
     >
-      <div className="flex h-[25vh] justify-between w-full border-b-2">
+      <div id="menu-card" className="flex h-[25vh] justify-between w-full border-b-2">
         <div>
           <ul className="flex flex-col gap-2">
             <Link onClick={toggleLinks} to="home" smooth={true} duration={500}>

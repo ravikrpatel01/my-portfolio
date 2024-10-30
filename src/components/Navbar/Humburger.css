@@ -1,0 +1,9 @@
+@media (max-width: 360px) {
+    #menu-bar{
+        width: 100%;
+        height: auto;
+    }
+    #menu-card{
+        height: auto;
+    }
+}

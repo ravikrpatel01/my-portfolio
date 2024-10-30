@@ -4,6 +4,7 @@
         height: auto;
         display: flex;
         flex-direction: column-reverse;
+        align-items: center;
         /* background-color: rgb(23, 61, 61); */
         padding: 25px 10px 10px 10px;
         margin-top: 0px;
@@ -42,5 +43,26 @@
 
     #right-card-element{
         width: 100%;
+    }
+}
+
+@media (max-width:360px) {
+    #left-card h2 #hello{
+        font-size: 59px;
+    }
+    #left-card h2 #name{
+        font-size: 70px;
+        /* background-color: aqua; */
+    }
+    #left-card h2 #role{
+        font-size: 36px;
+        /* background-color: aqua; */
+    }
+    #left-card{
+        row-gap: 18px;
+    }
+    #right-card{
+        width: 95%;
+        display: flex;
     }
 }
