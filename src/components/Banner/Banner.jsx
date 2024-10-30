@@ -23,6 +23,7 @@ const Banner = () => {
             <span id="hello" className="text-orange-500">
               Hello!👋
             </span>
+            <br id="line-br" className="hidden" />
             <span id="name" className="text-white-700">
               I'm RAVI
             </span>
