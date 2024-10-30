@@ -28,7 +28,7 @@
 @media (max-width:430px) {
   #project-card{
     width: 100%;
-    height: 48vh;
+    height: 47vh;
     transform: none;
   }
 }
