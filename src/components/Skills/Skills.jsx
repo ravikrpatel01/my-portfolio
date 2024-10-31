@@ -25,19 +25,19 @@ const Skills = () => {
       <div id="skills" className="bg-[#111] w-full h-[85vh] px-10 py-[3rem]">
         <div className="flex flex-col gap-2 items-center">
           <div>
-            <p className="text-[1.2rem]">My Expertise</p>
+            <p className="text-[1.2rem] text-gray-300">My Expertise</p>
           </div>
           <div className="text-center">
             <h2 id="heading" className="text-3xl font-semibold">TECHNICAL PROFICIENCY</h2>
           </div>
           <div
             id="expertise"
-            className="text-center text-[1.3rem] text-gray-400"
+            className="text-center text-[1.3rem]"
           >
-            <p>
-              <strong>What I'm Expert In:</strong> Frontend Development{" "}
-              <span id="hide">|</span> <strong>What I Can Deliver:</strong>{" "}
-              Clean and Efficient Code
+            <p className="text-white">
+              <strong className="text-gray-400">What I'm Expert In:</strong> Frontend Development{" "}
+              <span id="hide">|</span> <strong className="text-gray-400">What I Can Deliver:</strong>{" "}
+              High-Quality and Responsive Websites
             </p>
           </div>
         </div>

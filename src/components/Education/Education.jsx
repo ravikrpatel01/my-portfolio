@@ -1,17 +1,31 @@
 import React from "react";
 import { FaUserGraduate } from "react-icons/fa";
-import './Education.css'
+import "./Education.css";
 
 const Education = () => {
   return (
-    <div id="education" className="bg-[#212121] flex flex-col gap-10 w-full h-[120vh] p-10">
-      <div className="flex flex-col items-center">
+    <div
+      id="education"
+      className="bg-[#212121] flex flex-col gap-10 w-full h-[120vh] p-10"
+    >
+      <div className="flex flex-col gap-2 items-center">
+        <div>
+          <p className="text-[1.2rem] text-gray-300">My Qualifications</p>
+        </div>
         <div className="text-center">
-          <h2 id="heading" className="text-3xl font-semibold">ACADEMIC JOURNEY</h2>
+          <h2 id="heading" className="text-3xl font-semibold">
+            ACADEMIC JOURNEY
+          </h2>
         </div>
       </div>
-      <div id="edu-cards" className="w-full h-[95vh] grid grid-cols-2 grid-rows-2 gap-8 p-1">
-        <div id="edu-card" className="w-full flex justify-center p-5 border-[1px] border-gray-400 rounded items-center flex-col h-full hover:bg-[#111] hover:scale-105 cursor-pointer transition-all">
+      <div
+        id="edu-cards"
+        className="w-full h-[95vh] grid grid-cols-2 grid-rows-2 gap-8 p-1"
+      >
+        <div
+          id="edu-card"
+          className="w-full flex justify-center p-5 border-[1px] border-gray-400 rounded items-center flex-col h-full hover:bg-[#111] hover:scale-105 cursor-pointer transition-all"
+        >
           <div className="w-full h-full flex flex-col gap-3 items-center justify-center">
             <div className="flex text-center">
               <FaUserGraduate
@@ -38,7 +52,10 @@ const Education = () => {
             </div>
           </div>
         </div>
-        <div id="edu-card" className="w-full flex justify-center p-5 border-[1px] border-gray-400 rounded items-center flex-col h-full hover:bg-[#111] hover:scale-105 cursor-pointer transition-all">
+        <div
+          id="edu-card"
+          className="w-full flex justify-center p-5 border-[1px] border-gray-400 rounded items-center flex-col h-full hover:bg-[#111] hover:scale-105 cursor-pointer transition-all"
+        >
           <div className="w-full h-full flex flex-col gap-3 items-center justify-center">
             <div className="flex text-center">
               <FaUserGraduate
@@ -65,11 +82,15 @@ const Education = () => {
             </div>
           </div>
         </div>
-        <div id="edu-card" className="w-full flex justify-center p-5 border-[1px] border-gray-400 rounded items-center flex-col h-full hover:bg-[#111] hover:scale-105 cursor-pointer transition-all">
+        <div
+          id="edu-card"
+          className="w-full flex justify-center p-5 border-[1px] border-gray-400 rounded items-center flex-col h-full hover:bg-[#111] hover:scale-105 cursor-pointer transition-all"
+        >
           <div className="w-full h-full flex flex-col gap-3 items-center justify-center">
             <div className="flex text-center">
               <FaUserGraduate
-                className="border-[1px] rounded-full p-4 bg-[#111]" transition-all
+                className="border-[1px] rounded-full p-4 bg-[#111]"
+                transition-all
                 size={100}
                 color="gray"
               />
@@ -92,7 +113,10 @@ const Education = () => {
             </div>
           </div>
         </div>
-        <div id="edu-card" className="w-full flex justify-center p-5 border-[1px] border-gray-400 rounded items-center flex-col h-full hover:bg-[#111] hover:scale-105 cursor-pointer transition-all">
+        <div
+          id="edu-card"
+          className="w-full flex justify-center p-5 border-[1px] border-gray-400 rounded items-center flex-col h-full hover:bg-[#111] hover:scale-105 cursor-pointer transition-all"
+        >
           <div className="w-full h-full flex flex-col gap-3 items-center justify-center">
             <div className="flex text-center">
               <FaUserGraduate
@@ -119,7 +143,6 @@ const Education = () => {
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );

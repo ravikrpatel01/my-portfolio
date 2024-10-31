@@ -63,7 +63,7 @@ const Projects = () => {
       >
         <div className="flex flex-col items-center gap-3">
           <div>
-            <p className="text-[1.2rem]">My Recent Projects</p>
+            <p className="text-[1.2rem] text-gray-300">My Recent Projects</p>
           </div>
           <div className="text-center">
             <h2 id="heading" className="text-3xl font-semibold">PORTFOLIO HIGHLIGHTS</h2>
