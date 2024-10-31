@@ -30,16 +30,6 @@ const Skills = () => {
           <div className="text-center">
             <h2 id="heading" className="text-3xl font-semibold">TECHNICAL PROFICIENCY</h2>
           </div>
-          <div
-            id="expertise"
-            className="text-center text-[1.3rem]"
-          >
-            <p className="text-white">
-              <strong className="text-gray-400">What I'm Expert In:</strong> Frontend Development{" "}
-              <span id="hide">|</span> <strong className="text-gray-400">What I Can Deliver:</strong>{" "}
-              High-Quality and Responsive Websites
-            </p>
-          </div>
         </div>
 
         <div id="skills-card" className="flex gap-10 justify-around px-5 py-20">
