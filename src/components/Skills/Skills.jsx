@@ -23,15 +23,21 @@ const Skills = () => {
   return (
     <>
       <div id="skills" className="bg-[#111] w-full h-[85vh] px-10 py-[3rem]">
-        <div className="flex flex-col gap-4 items-center">
-          <div className="text-center">
-            <h2 className="text-3xl font-semibold">SKILLS</h2>
+        <div className="flex flex-col gap-2 items-center">
+          <div>
+            <p className="text-[1.2rem]">My Expertise</p>
           </div>
-          <div id="expertise" className="text-center text-[1.3rem] text-gray-400">
+          <div className="text-center">
+            <h2 id="heading" className="text-3xl font-semibold">TECHNICAL PROFICIENCY</h2>
+          </div>
+          <div
+            id="expertise"
+            className="text-center text-[1.3rem] text-gray-400"
+          >
             <p>
-              <strong>What I'm Expert In:</strong> Frontend Development {" "}
-              <span id="hide">|</span> <strong>What I Can Deliver:</strong> Clean and
-              Efficient Code
+              <strong>What I'm Expert In:</strong> Frontend Development{" "}
+              <span id="hide">|</span> <strong>What I Can Deliver:</strong>{" "}
+              Clean and Efficient Code
             </p>
           </div>
         </div>

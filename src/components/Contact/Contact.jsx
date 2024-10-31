@@ -59,7 +59,7 @@ const Contact = () => {
           </div>
           <div id="form-card" className=" flex flex-col w-1/2 h-[70vh] p-5 gap-4">
             <div>
-              <h2 className="text-3xl font-semibold">Get In Touch</h2>
+              <h2 id="heading" className="text-3xl font-semibold">Let's Connect!</h2>
             </div>
 
             <form className="flex flex-col gap-4" onSubmit={sendEmail}>

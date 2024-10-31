@@ -6,8 +6,8 @@ const Education = () => {
   return (
     <div id="education" className="bg-[#212121] flex flex-col gap-10 w-full h-[120vh] p-10">
       <div className="flex flex-col items-center">
-        <div id="heading">
-          <h2 className="text-3xl font-semibold">MY EDUCATION</h2>
+        <div className="text-center">
+          <h2 id="heading" className="text-3xl font-semibold">ACADEMIC JOURNEY</h2>
         </div>
       </div>
       <div id="edu-cards" className="w-full h-[95vh] grid grid-cols-2 grid-rows-2 gap-8 p-1">

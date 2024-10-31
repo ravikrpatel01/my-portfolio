@@ -65,8 +65,8 @@ const Projects = () => {
           <div>
             <p className="text-[1.2rem]">My Recent Projects</p>
           </div>
-          <div>
-            <h2 className="text-3xl font-semibold">PERSONAL PROJECTS</h2>
+          <div className="text-center">
+            <h2 id="heading" className="text-3xl font-semibold">PORTFOLIO HIGHLIGHTS</h2>
           </div>
         </div>
 
