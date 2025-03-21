@@ -8,16 +8,15 @@ import {
   FaReact,
   FaGitAlt,
   FaGithub,
-  FaNodeJs,
-  FaBootstrap,
-  FaDatabase,
+  FaLinux 
 } from "react-icons/fa";
+import { BiLogoPostgresql } from "react-icons/bi";
 import { IoLogoJavascript } from "react-icons/io5";
 import { VscVscode } from "react-icons/vsc";
-import { DiMongodb } from "react-icons/di";
 import { SiMysql } from "react-icons/si";
+import { SiIntellijidea } from "react-icons/si";
+import { SiSpringboot } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { TbBrandCpp } from "react-icons/tb";
 
 const Skills = () => {
   return (
@@ -45,7 +44,7 @@ const Skills = () => {
                     size={80}
                     color="gray"
                   />
-                  <h3>Core JAVA</h3>
+                  <h3 className="mt-1">JAVA</h3>
                 </div>
                 <div className="flex flex-col items-center">
                   <FaPython
@@ -118,29 +117,29 @@ const Skills = () => {
             <div className="flex mt-10 w-full flex-col justify-between items-center">
               <div className="flex items-center gap-8">
                 <div className="flex flex-col items-center">
-                  <FaNodeJs
+                  <SiSpringboot
                     className="icon cursor-pointer"
                     size={80}
                     color="gray"
                   />
 
-                  <h3>Node JS</h3>
+                  <h3>Spring Boot</h3>
                 </div>
                 <div className="flex flex-col items-center">
-                  <DiMongodb
+                  <BiLogoPostgresql 
                     className="icon cursor-pointer"
                     size={90}
                     color="gray"
                   />
-                  <h3>MongoDB</h3>
+                  <h3>PostgreSQL</h3>
                 </div>
                 <div className="flex flex-col items-center">
-                  <SiMysql
+                  <FaLinux 
                     className="icon cursor-pointer"
                     size={80}
                     color="gray"
                   />
-                  <h3>MySQL</h3>
+                  <h3>Linux</h3>
                 </div>
               </div>
             </div>
@@ -165,10 +164,10 @@ const Skills = () => {
                     size={70}
                     color="gray"
                   />
-                  <h3>GitHub</h3>
+                  <h3 className="mt-1">GitHub</h3>
                 </div>
               </div>
-              <div>
+              <div className="flex items-center gap-10">
                 <div className="flex flex-col items-center">
                   <VscVscode
                     className="icon cursor-pointer"
@@ -176,6 +175,14 @@ const Skills = () => {
                     color="gray"
                   />
                   <h3>VS Code</h3>
+                </div>
+                <div className="flex flex-col items-center">
+                  <SiIntellijidea
+                    className="icon cursor-pointer"
+                    size={65}
+                    color="gray"
+                  />
+                  <h3 className="mt-2">IntelliJ IDEA</h3>
                 </div>
               </div>
             </div>

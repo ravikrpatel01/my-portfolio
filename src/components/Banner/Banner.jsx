@@ -29,7 +29,7 @@ const Banner = () => {
             </span>
             , <br />
             <span id="role" className="text-green-500">
-              Frontend Developer.
+              Backend Developer.
             </span>
           </h2>
         </div>

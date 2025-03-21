@@ -26,7 +26,7 @@ const Humburger = (props) => {
           <ul className="flex flex-col gap-2">
             <Link onClick={toggleLinks} to="home" smooth={true} duration={500}>
               <li className="flex items-center gap-2 cursor-pointer px-3 mt-2 mb-1">
-                <FaHouse size={32} color="gray" />
+                <FaHouse size={28} color="gray" />
                 Home
               </li>
             </Link>
@@ -37,7 +37,7 @@ const Humburger = (props) => {
               duration={500}
             >
               <li className="flex items-center gap-2 cursor-pointer px-3 mb-1">
-                <FaUserGraduate size={32} color="gray" />
+                <FaUserGraduate size={28} color="gray" />
                 Education
               </li>
             </Link>
@@ -48,7 +48,7 @@ const Humburger = (props) => {
               duration={500}
             >
               <li className="flex items-center gap-2 cursor-pointer px-3 mb-1">
-                <FaTools size={32} color="gray" />
+                <FaTools size={28} color="gray" />
                 Skills
               </li>
             </Link>
@@ -60,7 +60,7 @@ const Humburger = (props) => {
               duration={500}
             >
               <li className="flex items-center gap-2 cursor-pointer px-3 mb-1">
-                <FaLaptopCode size={32} color="gray" />
+                <FaLaptopCode size={28} color="gray" />
                 Projects
               </li>
             </Link>
@@ -72,7 +72,7 @@ const Humburger = (props) => {
               duration={500}
             >
               <li className="flex items-center gap-2 cursor-pointer px-3 mb-1">
-                <IoMdMailUnread size={32} color="gray" />
+                <IoMdMailUnread size={28} color="gray" />
                 Contact
               </li>
             </Link>
@@ -88,7 +88,7 @@ const Humburger = (props) => {
             >
               <FaLinkedin
                 className="icon cursor-pointer hover:scale-[1.3] transition-all"
-                size={32}
+                size={28}
                 color="#0077B5"
               />
               LinkedIn
@@ -101,7 +101,7 @@ const Humburger = (props) => {
             >
               <FaGithub
                 className="icon cursor-pointer hover:scale-[1.3] transition-all"
-                size={32}
+                size={28}
                 color="gray"
               />
               GitHub
@@ -114,7 +114,7 @@ const Humburger = (props) => {
             >
               <SiLeetcode
                 className="icon cursor-pointer hover:scale-[1.3] transition-all"
-                size={32}
+                size={28}
                 color="#FFA116"
               />
               LeetCode
@@ -127,7 +127,7 @@ const Humburger = (props) => {
             >
               <SiGeeksforgeeks
                 className="icon cursor-pointer hover:scale-[1.3] transition-all"
-                size={32}
+                size={28}
                 color="#00cc66"
               />
               GFG
